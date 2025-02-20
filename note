@@ -1,0 +1,6 @@
+📌 Como Atualizar o Código no GitHub Sempre que Fizer Mudanças
+Depois que tudo estiver configurado, sempre que atualizar o código e quiser enviar para o GitHub, use apenas esses 3 comandos:
+
+git add .
+git commit -m "Descrição das mudanças que você fez"
+git push origin main
