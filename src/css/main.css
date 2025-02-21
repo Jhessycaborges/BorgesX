@@ -1,7 +1,7 @@
-/* Início do Style Index.html */
+/* Início Index.html */
 .navbar {
     position: fixed;
-    top: 65px;
+    top: 53px;
     left: 50%; /* Posiciona o menu no meio da tela horizontalmente */
     transform: translateX(-50%); /* Move o menu 50% para a esquerda para centralizá-lo */
     display: flex;
@@ -57,7 +57,7 @@
 }
 
 .social {
-    position: fixed; /* Mantém o botão fixo na parte inferior */
+    position: fixed; /* Mantém o botão fixo */
     bottom: 75px; 
     left: 50%; /* Centraliza na horizontal */
     transform: translateX(-50%); /* Ajusta para ficar perfeitamente no centro */
@@ -107,4 +107,41 @@
     letter-spacing: 1.5px;
 }
 
-/* Fim do Style Index.html */
+/* Fim Index.html */
+
+/* Início Sobre.html*/
+
+.about-section {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 130px;
+    max-width: 650px;
+    box-sizing: border-box;
+    color: #ffffff;
+}
+
+.about-heading {
+    text-align: center;
+    font-size: 28px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.about-text {
+    text-align: center;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
