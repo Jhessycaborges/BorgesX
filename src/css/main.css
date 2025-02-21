@@ -118,15 +118,15 @@
 
 .social {
     position: fixed; /* Mantém o botão fixo */
-    bottom: 75px; 
+    bottom: 87px; 
     left: 50%; /* Centraliza na horizontal */
     transform: translateX(-50%); /* Ajusta para ficar perfeitamente no centro */
     display: flex; /* Usa flexbox para alinhar os elementos */
     justify-content: center;
     align-items: center;
     background: rgba(0, 0, 0, 0.5); /* Fundo escuro semi-transparente */
-    padding: 1px 12px;
-    border-radius: 50px;
+    padding: 1px;
+    border-radius: 10px;
     z-index: 1000; /* Mantém o botão acima de outros elementos */
 }
 
