@@ -1,7 +1,7 @@
 
 .navbar {
     position: fixed;
-    top: 50px;
+    top: 65px;
     left: 50%; /* Posiciona o menu no meio da tela horizontalmente */
     transform: translateX(-50%); /* Move o menu 50% para a esquerda para centralizá-lo */
     display: flex;
@@ -58,7 +58,7 @@
 
 .social {
     position: fixed; /* Mantém o botão fixo na parte inferior */
-    bottom: 90px; 
+    bottom: 75px; 
     left: 50%; /* Centraliza na horizontal */
     transform: translateX(-50%); /* Ajusta para ficar perfeitamente no centro */
     display: flex; /* Usa flexbox para alinhar os elementos */
