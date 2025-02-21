@@ -56,40 +56,6 @@
     margin-top: 70px; /* Compensa a altura da navbar fixa */
 }
 
-.social {
-    position: fixed; /* Mantém o botão fixo */
-    bottom: 75px; 
-    left: 50%; /* Centraliza na horizontal */
-    transform: translateX(-50%); /* Ajusta para ficar perfeitamente no centro */
-    display: flex; /* Usa flexbox para alinhar os elementos */
-    justify-content: center;
-    align-items: center;
-    background: rgba(0, 0, 0, 0.5); /* Fundo escuro semi-transparente */
-    padding: 10px 20px;
-    border-radius: 50px;
-    z-index: 1000; /* Mantém o botão acima de outros elementos */
-}
-
-.social a {
-    text-decoration: none;
-    font-size: 15px;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: white;
-    padding: 10px 20px;
-    border: 2px solid rgba(255, 255, 255, 0.6); /* Borda neon */
-    border-radius: 10px;
-    background: #97979733; /* Fundo semi-transparente */
-    letter-spacing: 1px;
-}
-
-.social a:hover {
-    background: rgba(231, 248, 250, 0.8); /* Cor mais forte no hover */
-    color: #000000;
-    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8); /* Adiciona um efeito de brilho */
-    transition: 0.3s;
-}
-
 .footer {
     position: fixed;
     bottom: 0;
@@ -127,9 +93,14 @@
     align-items: center;
     position: fixed;
     top: 130px;
-    max-width: 650px;
+    max-width: 825px;
     box-sizing: border-box;
     color: #ffffff;
+    font-weight: 500;
+    background-color: rgba(0, 255, 76, 0.308);
+    padding: 20px 22px;
+    border: 1px solid #ffffff38;
+    border-radius: 15px;
 }
 
 .about-heading {
@@ -140,8 +111,41 @@
 }
 
 .about-text {
-    text-align: center;
     letter-spacing: 1.5px;
-    font-size: 15px;
+    font-size: 14px;
     margin-bottom: 15px;
+}
+
+.social {
+    position: fixed; /* Mantém o botão fixo */
+    bottom: 75px; 
+    left: 50%; /* Centraliza na horizontal */
+    transform: translateX(-50%); /* Ajusta para ficar perfeitamente no centro */
+    display: flex; /* Usa flexbox para alinhar os elementos */
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5); /* Fundo escuro semi-transparente */
+    padding: 1px 12px;
+    border-radius: 50px;
+    z-index: 1000; /* Mantém o botão acima de outros elementos */
+}
+
+.social a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid rgba(255, 255, 255, 0.6); /* Borda neon */
+    border-radius: 10px;
+    background: #97979733; /* Fundo semi-transparente */
+    letter-spacing: 1px;
+}
+
+.social a:hover {
+    background: rgba(231, 248, 250, 0.8); /* Cor mais forte no hover */
+    color: #000000;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8); /* Adiciona um efeito de brilho */
+    transition: 0.3s;
 }
