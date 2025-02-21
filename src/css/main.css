@@ -1,4 +1,20 @@
-/* Início Index.html */
+/* Aplica fade-in em toda a página */
+body {
+    opacity: 0;
+    animation: fadeIn 0.5s ease-in forwards;
+}
+
+/* Animação */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
 .navbar {
     position: fixed;
     top: 53px;
@@ -8,7 +24,7 @@
     gap: 20px;
     background: rgba(0, 0, 0, 0.5);
     padding: 10px 20px;
-    border-radius: 50px;
+    border-radius: 10px;
     z-index: 1000; /* Garante que o menu fique sobre outros elementos da página */
 }
 
@@ -16,7 +32,7 @@
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 25px;
+    gap: 60px;
     padding: 0;
     margin: 0;
 }
@@ -27,14 +43,14 @@
 
 .navbar ul li a {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: bold;
     text-transform: uppercase;
     background: #97979733;
     color: #ffffff;
     padding: 10px 20px;
     border: 2px solid rgba(255, 255, 255, 0.6);
-    border-radius: 10px;
+    border-radius: 7px;
     letter-spacing: 1px;
 }
 
@@ -97,10 +113,10 @@
     box-sizing: border-box;
     color: #ffffff;
     font-weight: 500;
-    background-color: rgba(0, 255, 76, 0.308);
+    background-color: rgba(0, 110, 255, 0.308);
     padding: 20px 22px;
     border: 1px solid #ffffff38;
-    border-radius: 15px;
+    border-radius: 7px;
 }
 
 .about-heading {
@@ -126,7 +142,7 @@
     align-items: center;
     background: rgba(0, 0, 0, 0.5); /* Fundo escuro semi-transparente */
     padding: 1px;
-    border-radius: 10px;
+    border-radius: 7px;
     z-index: 1000; /* Mantém o botão acima de outros elementos */
 }
 
@@ -138,7 +154,7 @@
     color: white;
     padding: 10px 20px;
     border: 2px solid rgba(255, 255, 255, 0.6); /* Borda neon */
-    border-radius: 10px;
+    border-radius: 7px;
     background: #97979733; /* Fundo semi-transparente */
     letter-spacing: 1px;
 }
