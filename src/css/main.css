@@ -14,7 +14,7 @@ body {
     }
 }
 
-
+/*Index.html*/
 .navbar {
     position: fixed;
     top: 53px;
@@ -89,10 +89,8 @@ body {
     letter-spacing: 1.5px;
 }
 
-/* Fim Index.html */
 
-/* Início Sobre.html*/
-
+/* Sobre */
 .about-section {
     display: flex;
     width: 100%;
