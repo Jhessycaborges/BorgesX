@@ -1,7 +1,7 @@
 /*Index.html*/
 .navbar {
     position: fixed;
-    top: 70px;
+    top: 33px;
     left: 50%; /* Posiciona o menu no meio da tela horizontalmente */
     transform: translateX(-50%); /* Move o menu 50% para a esquerda para centralizá-lo */
     display: flex;
@@ -32,14 +32,14 @@
     background: #97979733;
     color: #ffffff;
     padding: 10px 20px;
-    border: 2px solid rgba(255, 255, 255, 0.6);
-    border-radius: 7px;
+    border: 1px solid rgba(255, 255, 255, 0.486);
+    border-radius: 5px;
     letter-spacing: 1px;
 }
 
 .navbar ul li a:hover {
-    background: rgba(231, 248, 250, 0.8);
-    color: #000000;
+    background: #ffffff80;
+    color: #ffffff;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8); /* Adiciona um efeito de brilho */
     transition: 0.3s;
 }
@@ -53,6 +53,15 @@
     align-items: center;
     position: fixed;
     margin-top: 70px; /* Compensa a altura da navbar fixa */
+}
+
+.icon-logo {
+    display: flex;
+    position: fixed;
+    top: 20px;
+    padding: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 .footer {
