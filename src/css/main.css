@@ -22,7 +22,6 @@ body {
     transform: translateX(-50%); /* Move o menu 50% para a esquerda para centralizá-lo */
     display: flex;
     gap: 20px;
-    background: rgba(0, 0, 0, 0.5);
     padding: 10px 20px;
     border-radius: 10px;
     z-index: 1000; /* Garante que o menu fique sobre outros elementos da página */
@@ -77,7 +76,6 @@ body {
     bottom: 0;
     left: 0;
     width: 100%;
-    background: rgba(0, 0, 0, 0.8);
     color: white;
     text-align: center;
     padding: 15px;
@@ -111,7 +109,7 @@ body {
     box-sizing: border-box;
     color: #ffffff;
     font-weight: 500;
-    background-color: rgba(0, 110, 255, 0.308);
+    background-color: rgba(0, 110, 255, 0.096);
     padding: 20px 22px;
     border: 1px solid #ffffff38;
     border-radius: 7px;
