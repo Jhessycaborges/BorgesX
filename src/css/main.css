@@ -1,9 +1,11 @@
-/*Start index.html*/
+/* ============================ */
+/*            NAVBAR            */
+/* ============================ */
 .navbar {
     position: fixed;
     top: 33px;
-    left: 50%; /* Posiciona o menu no meio da tela horizontalmente */
-    transform: translateX(-50%); /* Move o menu 50% para a esquerda para centralizá-lo */
+    left: 50%;
+    transform: translateX(-50%);
     display: flex;
     gap: 20px;
     padding: 10px 20px;
@@ -40,14 +42,17 @@
 .navbar ul li a:hover {
     background: #ffffff9c;
     color: #ffffff;
-    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.918); /* Adiciona um efeito de brilho */
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.918);
     transition: 0.3s;
 }
 
+/* ============================ */
+/*            HERO              */
+/* ============================ */
 .hero {
     width: 100%;
-    background: url(/src/images/fundoHexagonal.png) center/cover no-repeat;
-    height: 81vh; /* altura da viewport do navegador */
+    background: url(../images/fundoHexagonal.png) center/cover no-repeat;
+    height: 81vh; /* Altura da viewport do navegador */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,6 +60,9 @@
     margin-top: 70px; /* Compensa a altura da navbar fixa */
 }
 
+/* ============================ */
+/*        ÍCONE DO LOGO         */
+/* ============================ */
 .icon-logo {
     display: flex;
     position: fixed;
@@ -64,6 +72,9 @@
     z-index: 1000;
 }
 
+/* ============================ */
+/*           FOOTER             */
+/* ============================ */
 .footer {
     position: fixed;
     bottom: 0;
@@ -80,20 +91,23 @@
     font-size: 12px;
     letter-spacing: 1.5px;
 }
-/* End Index.html*/
 
+/* ============================ */
+/*        BOTÃO SOCIAL          */
+/* ============================ */
 .social {
     position: fixed; /* Mantém o botão fixo */
     bottom: 87px;
-    left: 50%; /* Centraliza na horizontal */
-    transform: translateX(-50%); /* Ajusta para ficar perfeitamente no centro */
-    display: flex; /* Usa flexbox para alinhar os elementos */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
     justify-content: center;
     align-items: center;
-    background: rgba(255, 255, 255, 0.041); /* Fundo escuro semi-transparente */
+    background: rgba(255, 255, 255, 0.041);
     border-radius: 5px;
-    z-index: 1000; /* Mantém o botão acima de outros elementos */
+    z-index: 1000;
 }
+
 .social a {
     text-decoration: none;
     font-size: 15px;
@@ -110,6 +124,6 @@
 .social a:hover {
     background: #ffffff80;
     color: #ffffff;
-    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.692); /* Adiciona um efeito de brilho */
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.692);
     transition: 0.3s;
 }
